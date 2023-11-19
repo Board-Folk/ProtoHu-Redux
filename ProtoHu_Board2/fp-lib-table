@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ProtoHu_revA_layer2")(type "KiCad")(uri "$(KIPRJMOD)/ProtoHu_revA_layer2.pretty")(options "")(descr ""))
+)
