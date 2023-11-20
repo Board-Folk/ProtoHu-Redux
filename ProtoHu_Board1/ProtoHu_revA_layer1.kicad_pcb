@@ -855,7 +855,7 @@
   (gr_text "GLUE" (at 128.5 140.5) (layer "B.SilkS") (tstamp da55f396-5754-4082-8677-90351b622068)
     (effects (font (size 1 1) (thickness 0.1)) (justify mirror))
   )
-  (gr_text "1.6mm" (at 148.45 79.7) (layer "B.SilkS") (tstamp ef92c0ea-67cd-4226-ac9e-131db033591a)
+  (gr_text "0.8mm" (at 148.45 79.7) (layer "B.SilkS") (tstamp ef92c0ea-67cd-4226-ac9e-131db033591a)
     (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify mirror))
   )
   (gr_text "ProtoHu Redux" (at 131.5 122.1875 90) (layer "F.SilkS") (tstamp 03854b4c-13a4-4135-84b9-53c4cc61c53e)
