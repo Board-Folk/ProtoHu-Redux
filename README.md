@@ -2,6 +2,8 @@
 
 ## A Simple flash HuCard for the NEC PC Engine/Turbo-Grafx range of consoles.
 
+![Image](https://github.com/Board-Folk/ProtoHu-Redux/blob/master/img/render.jpg?raw=true)
+
 This project is based upon David Shadoff's [ProtoHu](https://github.com/dshadoff/ProtoHu_revA).
 The original Eagle project was converted to KiCad. The most important
 difference is the addition of an OR gate to fully decode the HuCard
@@ -30,6 +32,21 @@ boards is not important.
 
 This visual design is intended to look vaguely like an original HuCard
 when white solder mask is used with black silkscreen.
+
+
+## BOM
+
+| Reference  | Value          | Footprint |
+|------------|----------------|-----------|
+| C1,C3      | 0.1uF          | 0805      |
+| C2         | 1uF            | 0805      |
+| IC1        | SST39SF040     | SOP-32    |
+| IC2        | 74HC32         | TSSOP-14  |
+| J2         | 0.1" Header \* | DIP-32    |
+| R1         | 47K            | 0805      |
+
+\* It's possible to omit this and program the flash by holding the card 
+firmly against some header pins mounted in your programming device.
 
 
 ## Assembly
